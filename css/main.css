@@ -1,0 +1,105 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*General Styles*/
+body{
+	font-size: 16px;
+}
+
+
+/*Border line for all containers.*/
+header,main article,aside,iframe,footer{
+	border: 2px solid gray;
+	border-radius: 5px;
+	margin: 3px;
+}
+
+/*Content border lines*/
+.container-fluid header,nav{
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+#main-form-cl{
+	background-color: green;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+
+/*Other styles*/
+
+li{
+	list-style: none;
+}
+#main-wind,#foot{
+	margin-top:25px;
+}
+#main-form-cl{
+	height: auto;
+}
+iframe{
+	height: 220px;
+}
+aside{
+	padding-top: 25px;
+	height: 220px
+	
+}
+
+/*COLORS FOR PAGE*/
+header{
+	background-color: #66FFFF;
+
+}
+#main-form-cl div h1{
+	color: #ffffff;
+}
+article{
+	background-color: green;
+}
+
+nav,footer{
+	background-color: yellow;
+	margin-top: 25px;
+}
+input{
+  display: block;
+  padding: 5px;
+  width: 60%;
+  margin: 10px 0;
+}
+input[type=submit]{
+  background: linear-gradient(#FFDA63, #FFB940);
+  border:0;
+  color: brown;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 0;
+
+ 
+}
+input[tyoe=submit]:hover{
+  opacity: 1;
+}
+
+input[tyoe=submit]:active{
+  transform: scale(0.30);
+}
+
+/* RESPONSIVE */
+@media(max-width:1000px){
+  form{
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+

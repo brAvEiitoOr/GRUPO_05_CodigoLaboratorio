@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu_desayuno>
+  <comida>
+    <nombre>Gofres belgas</nombre>
+    <precio>$5.95</precio>
+    <descripcion>Dos de nuestros famosos gofres belgas con mucho jarabe de arce real</descripcion>
+    <calorias>650</calorias>
+  </comida>
+  <comida>
+    <nombre>Waffles belgas de fresa</nombre>
+    <precio>$7.95</precio>
+    <descripcion>Gofres belgas ligeros cubiertos con fresas y crema batida</descripcion>
+    <calorias>900</calorias>
+  </comida>
+  <comida>
+    <nombre>Waffles belgas de bayas y bayas</nombre>
+    <precio>$8.95</precio>
+    <descripcion>Gofres belgas ligeros cubiertos con una variedad de bayas frescas y crema batida</descripcion>
+    <calorias>900</calorias>
+  </comida>
+  <comida>
+    <nombre>Tostada Francesa</nombre>
+    <precio>$4.50</precio>
+    <descripcion>Rebanadas gruesas hechas con nuestro pan de masa madre casero</descripcion>
+    <calorias>600</calorias>
+  </comida>
+  <comida>
+    <nombre>Desayuno estilo casero</nombre>
+    <precio>$6.95</precio>
+    <descripcion>Dos huevos, tocino o salchicha, tostadas y nuestras siempre populares croquetas de papa</descripcion>
+    <calorias>950</calorias>
+  </comida>
+</menu_desayuno>
