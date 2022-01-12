@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var texto = '{"A" : ['+
+        '{"Nombre" : "Edwin"},'+
+        '{"Nombre" : "Andres"},'+
+        '{"Nombre" : "Emilio"}],'+
+        '"B" : ['+
+        '{"Nombre" : "Marcelo"},'+
+        '{"Nombre" : "Anthony"},'+
+        '{"Nombre" : "Lucas"}]}';
+
+        console.log(JSON.parse(texto));
+        
+        function cambiarTabla(sel) {
+            myObj = JSON.parse(texto);
+            lista = myObj.sel;
+            text = "<table border='1'>";
+            console.log(lista);
+            for (x in lista) {
+                text += "<tr><td>" + myObj[x].Nombre + "</td></tr>";
+            }
+            text += "</table>"    
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+</head>
+<body>
+    <select id="menu" onchange="cambiarTabla(this.value)">
+        <option selected disabled>Choose an option:</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+    </select>
+    <p id="demo"></p>
+    <p id="test">AA</p>
+</body>
+</html>
